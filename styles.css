@@ -1,0 +1,116 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Game Container */
+#game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes full height */
+    background: linear-gradient(135deg, #6e7c7c, #c4c4c4);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Account Info Sections */
+#account-a, #account-b {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#account-a h2, #account-b h2 {
+    font-size: 1.5rem;
+    color: #0077b6;
+}
+
+#account-a p, #account-b p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* VS Section */
+#vs h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Guess Buttons */
+button {
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0099cc;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Restart Button */
+/* Make sure the Restart button is centered */
+#restart {
+    background: linear-gradient(135deg, #ff6f61, #ff4040);
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    display: block; /* Ensures it's treated as a block element */
+}
+
+
+#restart:hover {
+    background-color: #ff5a47;
+    transform: translateY(-3px);
+}
+
+#restart:active {
+    transform: translateY(1px);
+}
+
+/* Feedback Section */
+#feedback {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Score Section */
+#score {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #0077b6;
+}
