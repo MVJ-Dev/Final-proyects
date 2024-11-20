@@ -1,4 +1,4 @@
-/* Base Styles */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f2f2f2;
@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-/* Game Container */
+
 #game-container {
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ body {
     max-width: 600px;
 }
 
-/* Account Info Sections */
+
 #account-a, #account-b {
     background-color: #fff;
     border-radius: 10px;
@@ -46,7 +46,7 @@ body {
     color: #555;
 }
 
-/* VS Section */
+
 #vs h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -54,7 +54,7 @@ body {
     margin: 20px 0;
 }
 
-/* Guess Buttons */
+
 button {
     background: linear-gradient(135deg, #0077b6, #00b4d8);
     color: #fff;
@@ -76,8 +76,7 @@ button:active {
     transform: translateY(1px);
 }
 
-/* Restart Button */
-/* Make sure the Restart button is centered */
+
 #restart {
     background: linear-gradient(135deg, #ff6f61, #ff4040);
     padding: 15px 30px;
@@ -87,7 +86,7 @@ button:active {
     border: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin-top: 20px;
-    display: block; /* Ensures it's treated as a block element */
+    display: block; 
 }
 
 
@@ -100,7 +99,6 @@ button:active {
     transform: translateY(1px);
 }
 
-/* Feedback Section */
 #feedback {
     font-size: 1.2rem;
     font-weight: bold;
@@ -108,7 +106,7 @@ button:active {
     margin: 10px 0;
 }
 
-/* Score Section */
+
 #score {
     font-size: 1.3rem;
     font-weight: 500;
